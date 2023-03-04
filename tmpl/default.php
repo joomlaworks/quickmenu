@@ -35,6 +35,9 @@ $document->addStyleDeclaration('
     .aqm_grid > div > .aqm_list_header {background:none;color:#98a6b9;font-size:1.1rem;margin:0 0 5px 0;padding:5px 15px;white-space:nowrap;}
     .aqm_grid > div > a.dropdown-item {margin:0;padding:15px;border-top:0;border-bottom:1px solid var(--template-bg-dark-80);}
     .aqm_grid > div > a.dropdown-item:last-child {border:0;}
+    @media only screen and (max-width:1024px) {
+        .aqm_grid > div > .aqm_list_header {white-space:normal;line-height:120%;}
+    }
     /* Styles for Admin Quick Menu [finish] */
 
 ');
