@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="administrator" method="upgrade" position="status">
+    <name>Quick Menu (by JoomlaWorks)</name>
+    <author>JoomlaWorks</author>
+    <creationDate>March 4th, 2023</creationDate>
+    <copyright>Copyright (c) 2009 - 2023 JoomlaWorks Ltd. All rights reserved.</copyright>
+    <authorEmail>please-use-the-contact-form@joomlaworks.net</authorEmail>
+    <authorUrl>https://www.joomlaworks.net</authorUrl>
+    <version>1.0</version>
+    <license>https://gnu.org/licenses/gpl.html</license>
+    <description>MOD_JW_QUICKMENU_XML_DESC</description>
+    <files>
+        <filename module="mod_jw_quickmenu">mod_jw_quickmenu.php</filename>
+        <folder>language</folder>
+        <folder>tmpl</folder>
+    </files>
+    <config></config>
+    <updateservers>
+        <server type="extension" priority="1" name="Quick Menu (by JoomlaWorks)">https://cdn.joomlaworks.org/updates/quickmenu.xml</server>
+    </updateservers>
+</extension>
