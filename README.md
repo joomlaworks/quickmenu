@@ -12,6 +12,11 @@ Quick Menu (by JoomlaWorks) is a Joomla 4 administrator module which adds a hand
 - Add option to configure custom links
 - Add option to configure custom messages to admin users
 
+## PREVIEWS
+| On desktop    | On mobile     |
+| ------------- | ------------- |
+| ![Quick Menu on Joomla 4 desktop](/media/mod_jw_quickmenu/previews/quick_menu_1.0_desktop.png) | ![Quick Menu on Joomla 4 mobile](/media/mod_jw_quickmenu/previews/quick_menu_1.0_mobile.png) |
+
 ## COMPATIBILITY
 Quick Menu is compatible with Joomla version 4.x on servers running PHP 7 or 8.
 
