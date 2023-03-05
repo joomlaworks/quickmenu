@@ -8,10 +8,6 @@ Quick Menu (by JoomlaWorks) is a Joomla 4 administrator module which adds a hand
 - Neatly organize the menu in 2 columns (for admins), one to access common content management tasks and one to access common admin tasks. Keep in mind that not everything is included and for good reason: keep things simple.
 - Respects configured backend access permissions for your user groups. In other words, plain content managers will see menu options for what they can only access, whereas Super Admins will see menu options for everything.
 
-## ROADMAP (TO DO LIST)
-- Add option to configure custom links
-- Add option to configure custom messages to admin users
-
 ## PREVIEWS
 | On desktop    | On mobile     |
 | ------------- | ------------- |
