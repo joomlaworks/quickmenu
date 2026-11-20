@@ -10,6 +10,7 @@
     <license>https://gnu.org/licenses/gpl.html</license>
     <description>MOD_JW_QUICKMENU_XML_DESC</description>
     <namespace path="src">JoomlaWorks\Module\QuickMenu</namespace>
+    <scriptfile>script.php</scriptfile>
     <files>
         <folder module="mod_jw_quickmenu">services</folder>
         <folder>src</folder>

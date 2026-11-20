@@ -8,6 +8,7 @@ All notable changes to **Quick Menu** (`mod_jw_quickmenu`) are documented in thi
 - Full support for **Joomla 4, 5, and 6** using Joomla's modern DI container architecture (`services/provider.php` and `src/Dispatcher/Dispatcher.php` extending `AbstractModuleDispatcher`).
 - New SVG, PNG, and WebP logos and icons in `media/mod_jw_quickmenu/logo/` (including light and dark variants).
 - GitHub Pages update server manifest (`docs/update.xml`) supporting Joomla 4, 5, and 6.
+- Installer script (`script.php`) for update/install housekeeping (e.g., removing obsolete legacy files on upgrade).
 - `CHANGELOG.md` documenting project history from v1.0 onward.
 
 ### Changed
