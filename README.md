@@ -1,3 +1,11 @@
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="/media/mod_jw_quickmenu/logo/quickmenu-logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="/media/mod_jw_quickmenu/logo/quickmenu-logo-light.svg">
+    <img alt="Quick Menu" src="/media/mod_jw_quickmenu/logo/quickmenu-logo-light.svg" width="320">
+  </picture>
+</p>
+
 Quick Menu
 =========
 

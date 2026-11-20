@@ -16,8 +16,11 @@
         <folder>language</folder>
         <folder>tmpl</folder>
     </files>
+    <media destination="mod_jw_quickmenu" folder="media/mod_jw_quickmenu">
+        <folder>logo</folder>
+    </media>
     <config></config>
     <updateservers>
-        <server type="extension" priority="1" name="Quick Menu">https://cdn.joomlaworks.org/updates/quickmenu.xml</server>
+        <server type="extension" priority="1" name="Quick Menu">https://joomlaworks.github.io/quickmenu/update.xml</server>
     </updateservers>
 </extension>
