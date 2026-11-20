@@ -1,23 +1,21 @@
 <?php
 /**
- * @version    1.1
+ * @version    2.0
  * @package    Quick Menu (admin module)
  * @author     JoomlaWorks https://www.joomlaworks.net
- * @copyright  Copyright (c) 2009 - 2023 JoomlaWorks Ltd. All rights reserved.
+ * @copyright  Copyright (c) 2009 - 2026 JoomlaWorks Ltd. All rights reserved.
  * @license    GNU/GPL: https://gnu.org/licenses/gpl.html
  */
 
 // No direct access
 defined('_JEXEC') or die;
 
-use Joomla\CMS\Factory;
-use Joomla\CMS\Helper\ContentHelper;
 use Joomla\CMS\HTML\HTMLHelper;
 use Joomla\CMS\Language\Text;
 use Joomla\CMS\Router\Route;
 
 // ACL
-$user = Factory::getUser();
+$user = $app->getIdentity();
 $isSuperAdmin = $user->authorise('core.admin', 'com_config');
 $canAccessAdminTasks = ($isSuperAdmin || $user->authorise('core.manage', 'com_config') || $user->authorise('core.manage', 'com_modules') || $user->authorise('core.manage', 'com_plugins') || $user->authorise('core.manage', 'com_users') || $user->authorise('core.manage', 'com_checkin') || $user->authorise('core.manage', 'com_cache')) ? true : false;
 
@@ -26,8 +24,8 @@ $gridColumns = '1fr';
 if ($canAccessAdminTasks) {
     $gridColumns = '1fr 1fr';
 }
-$document = Factory::getDocument();
-$document->addStyleDeclaration('
+$wa = $app->getDocument()->getWebAssetManager();
+$wa->addInlineStyle('
 
     /* Styles for Admin Quick Menu [start] */
     .jw_qm_container {position:relative;margin-left:30px;}
