@@ -39,7 +39,7 @@ Quick Menu is compatible with Joomla versions 4.x, 5.x, and 6.x on servers runni
 Quick Menu is a Joomla module developed by JoomlaWorks, released under the GNU General Public License.
 
 ## DOWNLOAD
-To download the latest stable version of the extension, please visit the Quick Menu product page at: [https://www.joomlaworks.net/extensions/free/quickmenu](https://www.joomlaworks.net/extensions/free/quickmenu)
+Download the latest stable version of the extension from the [Releases](https://github.com/joomlaworks/quickmenu/releases) page here on GitHub or visit the Quick Menu product page at: [https://www.joomlaworks.net/extensions/free/quickmenu](https://www.joomlaworks.net/extensions/free/quickmenu)
 
 ---
 
