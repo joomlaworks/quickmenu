@@ -17,6 +17,7 @@ Quick Menu is a Joomla 4, 5 & 6 administrator module which adds a handy quick me
 - Less clicks to important content management and admin tasks in the Joomla backend... duh!
 - Neatly organize the menu in 2 columns (for admins), one to access common content management tasks and one to access common admin tasks. Keep in mind that not everything is included and for good reason: keep things simple.
 - Respects configured backend access permissions for your user groups. In other words, plain content managers will see menu options for what they can only access, whereas Super Admins will see menu options for everything.
+- Supports 20 languages by default: English (`en-GB`), Chinese Simplified (`zh-CN`), Hindi (`hi-IN`), Spanish (`es-ES`), French (`fr-FR`), Arabic (`ar-AA`), Bengali (`bn-BD`), Portuguese (`pt-BR`), Russian (`ru-RU`), Urdu (`ur-PK`), Indonesian (`id-ID`), German (`de-DE`), Japanese (`ja-JP`), Swahili (`sw-KE`), Marathi (`mr-IN`), Telugu (`te-IN`), Turkish (`tr-TR`), Tamil (`ta-IN`), Vietnamese (`vi-VN`), and Korean (`ko-KR`).
 
 ## HOW TO USE
 - Install the module.
